@@ -1,9 +1,64 @@
 /* General */
 * {
   box-sizing: border-box;
-  margin: o;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
   padding: 0;
 }
 
+:root {
+  --background-pink:#fbbedf;
+}
+
 /* Menu and logo */
+
+.container li {
+  display: inline-block;
+  justify-content:space-around;
+  align-items: flex-end;
+}
+
+.header {
+  background-color: var(--background-pink);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 320px;
+  width: 100%;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.main {
+  width: 100%;
+  background-color: var(--background-pink);
+}
+
+.container-main {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.container-img {
+  width: 250px; 
+  height: 250px;
+}
+
+h1 {
+  min-width: 320px;
+  max-width: 900px;
+  text-align: center;
+  align-self: center;
+  color: white;
+}
 
