@@ -1,7 +1,7 @@
 /* General */
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,7 @@ html {
 
 :root {
   --background-pink:#e696a3;
+  --text-pink: #fd7a90;
 }
 
 /* Menu and logo */
@@ -63,5 +64,38 @@ html {
   text-align: center;
   align-self: center;
   color: white;
+}
+
+/* About */
+
+.circle-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.project-details {
+  text-align: center;
+}
+
+.project h2 {
+  text-align: center;
+  color: var(--text-pink);
+  padding: 30px;
+  font-size: 2.4rem;
+}
+
+.project-title {
+  color: var(--text-pink);
+  padding: 20px;
+  font-size: 2.4rem;
+}
+
+.project-description {
+  padding: 10px;
+  font-size: 2.2rem;
+  color: rgb(73, 73, 73);
 }
 
