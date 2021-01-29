@@ -16,6 +16,7 @@ html {
   --background-project1: #ffdada;
   --text-colo-white: #ffffff;
   --text-color-gray: rgb(73, 73, 73);
+  --background-project2: #dbf6e9;
 }
 
 /* Menu and logo */
@@ -102,12 +103,13 @@ html {
   padding: 30px;
   font-size: 2.2rem;
   color: var(--text-color-gray);
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /* PROJECTS */
+/* Number one */
 
-.projects {
+.project1 {
   background-color: var(--background-project1);
   padding-top: 50px;
 }
@@ -146,6 +148,13 @@ html {
 .project-subtitle:hover,
 .header a:hover {
   border-bottom: 1px solid;
+}
+
+/* Project Number Two */
+
+.project2 {
+  padding-top: 50px;
+  background-color: var(--background-project2);
 }
 
 
