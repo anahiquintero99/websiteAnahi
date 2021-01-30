@@ -17,6 +17,7 @@ html {
   --text-colo-white: #ffffff;
   --text-color-gray: rgb(73, 73, 73);
   --background-project2: #dbf6e9;
+  --background-project3: #9ddfd3;
 }
 
 /* Menu and logo */
@@ -155,6 +156,13 @@ html {
 .project2 {
   padding-top: 50px;
   background-color: var(--background-project2);
+}
+
+/* Project Number Three */
+
+.project3 {
+  padding-top: 50px;
+  background-color: var(--background-project3);
 }
 
 
