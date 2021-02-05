@@ -173,12 +173,21 @@ html {
   color: white;
   height: 200px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.form-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .social {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link {
@@ -222,17 +231,17 @@ html {
 }
 
 .form-email button {
-  display: block;
-  background: transparent;
   color: white;
-  padding: 10px 0px;
-  border-radius: 5px;
   width: 100px;
+  padding: 10px 0px;
   margin-top: 10px;
+  border-radius: 5px;
+  background: transparent;
 }
 
 .form-email h3 {
-  font-family: 'Cormorant Upright', serif;
+  font-size: 30px;
+  padding-bottom: 10px;
 }
 
 .container--footer {
