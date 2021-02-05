@@ -115,7 +115,7 @@ html {
   padding-top: 50px;
 }
 
-.project-one {
+.project-img {
   height: 200px;
   width: 300px;
   display: block;
@@ -235,8 +235,8 @@ html {
   font-family: 'Cormorant Upright', serif;
 }
 
-.container-footer {
-  width: 1000px;
+.container--footer {
+  width: 100%;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
