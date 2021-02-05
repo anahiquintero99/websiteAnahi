@@ -28,6 +28,8 @@ html {
   min-width: 320px;
   display: flex;
   justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 20px;
 }
 
 
