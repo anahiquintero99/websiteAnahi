@@ -3,7 +3,7 @@
   --bacground-header: #e696a3;
   --bacground-body: #fffffa;
   --color-font-list: #fff;
-  --bacground-menu-hover: rgb(128, 127, 127);
+  --bacground-menu-hover: rgba(255, 172, 204, 0.993);
   --color-font-menu: #ccc;
 }
 
@@ -31,6 +31,8 @@ body {
 
 .menu nav {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .menu-container {
@@ -51,6 +53,7 @@ body {
   padding: 20px;
   display: block;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 .menu__container--list li a img {
@@ -68,16 +71,6 @@ body {
 
 /* Media Queries */
 @media (max-width: 800px) {
-  header nav {
-    width: 80%;
-    height: 100%;
-    position: fixed;
-  }
-
-  .menu nav {
-    margin: 0;
-  }
-
   .menu__container--list li {
     display: block;
     float: none;
@@ -96,7 +89,7 @@ body {
     background: var(--bacground-header);
     color: var(--color-font-list);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .bt-menu img {
