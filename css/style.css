@@ -1,5 +1,6 @@
 /* General */
 * {
+  font-family: "Cormorant Garamond", serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,6 +18,93 @@ html {
   --text-color-gray: rgb(73, 73, 73);
   --background-project2: #dbf6e9;
   --background-project3: #9ddfd3;
+
+  --bacground-header: #e696a3;
+  --bacground-body: #fffffa;
+  --color-font-list: #fff;
+  --bacground-menu-hover: rgba(255, 172, 204, 0.993);
+  --color-font-menu: #ccc;
+}
+
+body {
+  background: var(--bacground-body);
+}
+
+/* Menu */
+
+/* Header */
+.menu {
+  width: 100%;
+  background: var(--bacground-header);
+}
+
+.menu nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container {
+  display: none;
+}
+
+.menu__container--list {
+  overflow: hidden;
+  list-style: none;
+}
+
+.menu__container--list li {
+  float: left;
+}
+
+.menu__container--list li a {
+  color: var(--color-font-list);
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.menu__container--list li a img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.menu__container--list li a:hover {
+  background: var(--bacground-menu-hover);
+}
+
+.main {
+  padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  .menu__container--list li {
+    display: block;
+    float: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 3);
+  }
+
+  .menu-container {
+    display: block;
+    width: 100%;
+    background: var(--color-font-menu);
+  }
+
+  .menu-container .bt-menu {
+    display: block;
+    padding: 20px;
+    background: var(--bacground-header);
+    color: var(--color-font-list);
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
+  .bt-menu img {
+    float: right;
+    font-size: 40px;
+  }
 }
 
 /* Menu and logo */
